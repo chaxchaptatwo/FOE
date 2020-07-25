@@ -2,7 +2,7 @@
 {
   $('.container').hide();
   var image = '<img class="FlashingImage" src="Images/Transparent/Transparent.png"/>';
-  $('body').append(image);
+  $('html').append(image);
   $('.FlashingImage').css({"display": "block", "width": "45%", "margin": "auto","vertical-align": "middle"});
   var i;
   for(i = 0; i < 3; i++)
