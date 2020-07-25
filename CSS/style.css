@@ -153,8 +153,8 @@ footer
 #timeline
 {
   left: 0;
-  padding-left: 2vw;
   margin: auto;
+  width: 90%;
 }
 .followUs
 {
