@@ -11,3 +11,4 @@
     $('.Image').fadeIn(1000).fadeOut(1000);
   };
   $('.container').delay(7000).fadeIn(3000);
+})();
