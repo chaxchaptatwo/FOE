@@ -206,6 +206,17 @@ footer
   text-align: center;
   font-size: 25px;
 }
+#Stream
+{
+  text-align: center;
+  font-size: 2.5vw;
+  text-decoration: underline;
+}
+.BlakInkSoundcloud
+{
+  width: 70%;
+  margin: auto;
+}
 /*Videos page edit*/
 #Videos
 {
