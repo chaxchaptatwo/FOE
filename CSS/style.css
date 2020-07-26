@@ -116,7 +116,7 @@ footer
 }
 #copyright
 {
-  padding-top: 8px;
+  padding-top: 2px;
   padding-left: 30px;
   font-size: 2.5vw;
 }
@@ -143,6 +143,11 @@ footer
 {
   color: red;
 }
+.Tweets
+{
+  margin: auto;
+  width: 100%;
+}
 #Tweets
 {
   text-align: center;
@@ -151,7 +156,6 @@ footer
 }
 #timeline
 {
-  left: 0;
   margin: auto;
   width: 90%;
 }
@@ -168,7 +172,8 @@ footer
 }
 .followLinks
 {
-  //padding-bottom: 100px;
+  margin: auto;
+  width: 100;
 }
 /*Music page edit*/
 #NewMusicSoon
@@ -205,6 +210,7 @@ footer
   text-align: center;
   font-size: 25px;
 }
+
 #Stream
 {
   text-align: center;
