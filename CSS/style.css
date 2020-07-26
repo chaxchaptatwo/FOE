@@ -28,6 +28,7 @@ li#Navi
     display: inline-block;
     padding-top: 30px;
     padding-left: 8%;
+    margin:auto;
 }
 a#Navi
 {
