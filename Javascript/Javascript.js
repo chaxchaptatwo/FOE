@@ -6,7 +6,7 @@
   $('.Image').css({"margin": "auto", "width": "65%", "height": "85vh"})
   $('.FlashingImage').css({"width": "100%",	"height": "100%"});
   var i;
-  for(i = 0; i < 3; i++)
+  for(i = 0; i < 4; i++)
   {
     $('.Image').fadeIn(1000).fadeOut(1000);
   };
