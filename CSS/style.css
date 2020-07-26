@@ -87,7 +87,8 @@ img.album
 }
 img.AlbumLinkImage
 {
-  padding-left: 12%;
+  margin: auto;
+  padding-left: 8%;
   height: 10%;
   width: 10%;
 }
@@ -209,6 +210,11 @@ footer
   text-align: center;
   font-size: 2.5vw;
   text-decoration: underline;
+}
+.StreamPlatforms
+{
+  margin: auto;
+  width: 100;
 }
 .BlakInkSoundcloud
 {
