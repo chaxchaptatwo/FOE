@@ -94,9 +94,7 @@ img.AlbumLinkImage
 img.ComingSoon
 {
   width: 100%;
-  height: 100%;
-  margin: auto;
-  vertical-align: middle;
+	height: 100%;
 }
 img.Quarantine
 {
@@ -239,8 +237,9 @@ footer
 }
 
 /*unavailable or coming (tour/merch) message*/
-.message
+.MerchSection
 {
-  text-align: center;
-  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  margin: auto;
 }
