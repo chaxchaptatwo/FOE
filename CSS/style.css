@@ -196,6 +196,9 @@ footer
   text-align: center;
   font-size: 8vw;
   border-bottom: 2px solid white;
+  background-image: url("../Images/rain.gif");
+  background-size: auto;
+  background-repeat: repeat-x;
 }
 #Newmusic
 {
