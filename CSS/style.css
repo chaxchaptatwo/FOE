@@ -113,6 +113,12 @@ img.Artistmedia
   width: 10%;
   overflow: auto;
 }
+img.gif
+{
+  height: 5%;
+  width: 5%;
+  padding-left: 1px;
+}
 /*footer changes*/
 footer
 {
