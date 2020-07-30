@@ -86,8 +86,6 @@ img.album
 }
 img.AlbumLinkImage
 {
-  margin: auto;
-  padding-left: 8%;
   height: 10%;
   width: 10%;
 }
@@ -257,6 +255,16 @@ a.Artistmedia
   text-align: center;
   font-size: 2vw;
   text-decoration: underline;
+}
+ul#StreamPlatforms
+{
+  display: inline-block;
+  overflow: auto;
+}
+a.AlbumLinkImage
+{
+  margin: auto;
+  padding-left: 8%;
 }
 .StreamPlatforms
 {
