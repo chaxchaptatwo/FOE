@@ -227,7 +227,6 @@ a.socialmedia
 ul#ArtistSocialMedia
 {
   display: inline-block;
-  overflow: auto;
 }
 a.Artistmedia
 {
@@ -259,11 +258,9 @@ a.Artistmedia
 ul#StreamPlatforms
 {
   display: inline-block;
-  overflow: auto;
 }
 a.AlbumLinkImage
 {
-  margin: auto;
   padding-left: 8%;
 }
 .StreamPlatforms
