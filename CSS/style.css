@@ -105,11 +105,8 @@ img.Quarantine
 }
 img.Artistmedia
 {
-  display: inline-block;
-  padding-left: 17%;
   height: 10%;
   width: 10%;
-  overflow: auto;
 }
 img.gif
 {
@@ -228,6 +225,15 @@ a.socialmedia
 {
   text-align: center;
   font-size: 40px;
+}
+ul#ArtistSocialMedia
+{
+  display: inline-block;
+  overflow: auto;
+}
+a.Artistmedia
+{
+  padding-left: 16%;
 }
 .ArtistSocialMedia
 {
