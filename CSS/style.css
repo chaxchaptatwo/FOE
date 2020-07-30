@@ -74,8 +74,6 @@ img#logo
 }
 img.socialmedia
 {
-  display: inline-block;
-  padding-left: 12%;
   height: 10%;
   width: 10%;
   overflow: auto;
@@ -189,6 +187,14 @@ footer
 {
   margin: auto;
   width: 100;
+}
+ul#followLinks
+{
+  display: inline-block;
+}
+a.socialmedia
+{
+  padding-left: 11.5%;
 }
 /*Music page edit*/
 #NewMusicSoon
