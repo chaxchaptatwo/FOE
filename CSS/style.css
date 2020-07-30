@@ -186,6 +186,7 @@ footer
 ul#followLinks
 {
   display: inline-block;
+  text-decoration: none;
 }
 a.socialmedia
 {
@@ -227,6 +228,7 @@ a.socialmedia
 ul#ArtistSocialMedia
 {
   display: inline-block;
+  text-decoration: none;
 }
 a.Artistmedia
 {
@@ -258,6 +260,7 @@ a.Artistmedia
 ul#StreamPlatforms
 {
   display: inline-block;
+  text-decoration: none;
 }
 a.AlbumLinkImage
 {
