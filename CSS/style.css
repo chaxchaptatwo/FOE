@@ -261,13 +261,13 @@ a.Artistmedia
 .albumName
 {
   text-align: center;
-  font-size: 25px;
+  font-size: 2.8vw;
 }
 
 #Stream
 {
   text-align: center;
-  font-size: 2vw;
+  font-size: 2.8vw;
   text-decoration: underline;
 }
 ul#StreamPlatforms
@@ -277,7 +277,7 @@ ul#StreamPlatforms
 }
 a.AlbumLinkImage
 {
-  padding-left: 8%;
+  padding-left: 7.5%;
 }
 .StreamPlatforms
 {
