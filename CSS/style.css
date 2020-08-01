@@ -133,6 +133,11 @@ footer
 .Welcome
 {
   text-align: center;
+  background-image: url("../Images/Stars.gif");
+  background-size: auto;
+  background-repeat: repeat-x;
+  margin-top: -35px;
+  padding-top: 80px;
 }
 #WelcomeHeading
 {
