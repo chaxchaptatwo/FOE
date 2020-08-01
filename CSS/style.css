@@ -217,6 +217,14 @@ a.socialmedia
   margin: auto;
   border-bottom: 2px solid white;
 }
+.Latest
+{
+  background-image: url("../Images/space.gif");
+  background-size: auto;
+  background-repeat: repeat;
+  margin-top: -35px;
+  padding-top: 80px;
+}
 .Song
 {/*center songs that are added*/
   padding-left: 10%;
@@ -286,6 +294,22 @@ a.AlbumLinkImage
   width: 70%;
   margin: auto;
 }
+.BlakinkMusic
+{
+  background-image: url("../Images/space.gif");
+  background-size: auto;
+  background-repeat: repeat;
+  margin-top: -3px;
+  padding-top: 15px;
+}
+.JyzleMusic
+{
+  background-image: url("../Images/space.gif");
+  background-size: auto;
+  background-repeat: repeat;
+  margin-top: -3px;
+  padding-top: 15px;
+}
 /*Videos page edit*/
 #Videos
 {
@@ -305,6 +329,11 @@ a.AlbumLinkImage
 .ArtistVideoSection
 {/*the artist's videos*/
   border-bottom: 2px solid white;
+  background-image: url("../Images/space.gif");
+  background-size: auto;
+  background-repeat: repeat;
+  margin-top: -3px;
+  padding-top: 15px;
 }
 
 /*unavailable or coming (tour/merch) message*/
