@@ -203,7 +203,7 @@ a.socialmedia
   text-align: center;
   font-size: 4vw;
   border-bottom: 2px solid white;
-  background-image: url("../Images/rain.gif");
+  background-image: url("../Images/rain-min.gif");
   background-size: auto;
   background-repeat: repeat-x;
   margin-top: -35px;
@@ -219,7 +219,7 @@ a.socialmedia
 }
 .Latest
 {
-  background-image: url("../Images/space.gif");
+  background-image: url("../Images/space-min.gif");
   background-size: auto;
   background-repeat: repeat;
   margin-top: -35px;
@@ -296,7 +296,7 @@ a.AlbumLinkImage
 }
 .BlakinkMusic
 {
-  background-image: url("../Images/space.gif");
+  background-image: url("../Images/space-min.gif");
   background-size: auto;
   background-repeat: repeat;
   margin-top: -3px;
@@ -304,7 +304,7 @@ a.AlbumLinkImage
 }
 .JyzleMusic
 {
-  background-image: url("../Images/space.gif");
+  background-image: url("../Images/space-min.gif");
   background-size: auto;
   background-repeat: repeat;
   margin-top: -3px;
@@ -329,7 +329,7 @@ a.AlbumLinkImage
 .ArtistVideoSection
 {/*the artist's videos*/
   border-bottom: 2px solid white;
-  background-image: url("../Images/space.gif");
+  background-image: url("../Images/space-min.gif");
   background-size: auto;
   background-repeat: repeat;
   margin-top: -3px;
