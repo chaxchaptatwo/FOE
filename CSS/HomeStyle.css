@@ -1,0 +1,67 @@
+/*For all elements*/
+html
+{
+  background-color: black;
+  height: 100%;
+}
+body
+{
+  /*background-repeat: no-repeat;
+  background-size: 100% 100%;*/
+  color: white;
+}
+.HomeLogo
+{
+  margin: auto;
+  width: 40vw;
+  height: 60vh;
+}
+img#logo
+{
+  width: 100%;
+  height: 100%;
+}
+/*Navgation edit*/
+header
+{
+  margin-top: 60vh;
+}
+li#Navi
+{
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 10%;
+    margin:auto;
+}
+a#Navi
+{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 2px 6px #f5f5f5;
+  font-size: 2.8vw;
+}
+ul.NaviList
+{
+  display: inline-block;
+  background: rgba(1,11,19, 0.3);
+  width: 97%;
+  height: 90px;
+  margin:auto;
+}
+a#Navi:hover
+{
+  background-color: Gray;
+}
+.active
+{
+  border-bottom: 3px solid white;
+  padding-bottom: 4px;
+}
+/*Floating Navgation(header)*/
+header
+{
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
