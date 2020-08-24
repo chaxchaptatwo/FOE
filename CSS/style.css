@@ -74,8 +74,8 @@ img#logo
 }
 img.socialmedia
 {
-  height: 2.7%;
-  width: 2.7%;
+  height: 4.3%;
+  width: 4.3%;
 }
 img.album
 {
@@ -116,7 +116,7 @@ footer
 {
   background: rgba(1,11,19, 0.9);
   width: 100%;
-  height: 80px;
+  height: 100px;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -128,7 +128,7 @@ footer
 }
 a.socialmedia
 {
-  padding-left: 7%;
+  padding-left: 4.5%;
 }
 
 /*Music page edit*/
