@@ -12,15 +12,14 @@ body
 }
 .HomeLogo
 {
-  width: 100%;
-  height: 60vh;
+  margin: auto;
+  width: 45%;
+  height: 100vh;
 }
 img#logo
 {
-  margin: auto;
   width: 500px;
-  height: 100%;
-  padding-left: 31vw;
+  height: 400px;
 }
 /*Navgation edit*/
 header
