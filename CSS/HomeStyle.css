@@ -33,8 +33,8 @@ li#Navi
 {
     display: inline-block;
     padding-top: 18px;
-    padding-left: 6.3vw;
     margin: auto;
+    padding-left: 7.6vw;
 }
 a#Navi
 {
@@ -50,6 +50,7 @@ ul.NaviList
   width: 100vw;
   height: 90px;
   margin:auto;
+  margin-left: -40px;
 }
 a#Navi:hover
 {
