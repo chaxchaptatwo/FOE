@@ -1,8 +1,7 @@
 /*For all elements*/
 html
 {
-  background-color: black;
-  background-image: url("../Images/Stars-min.gif");
+  background-image: linear-gradient(red, blue, black);
   height: 100%;
 }
 body
@@ -35,7 +34,7 @@ header
 li#Navi
 {
     display: inline-block;
-    padding-top: 30px;
+    padding-top: 18px;
     padding-left: 6.5vw;
     margin:auto;
 }
