@@ -20,9 +20,9 @@ body
 }
 img#logo
 {
-  padding-top: 2vh;
+  padding-top: 10vh;
   width: 42vw;
-  height: 50vh;
+  height: 300px;
 }
 /*Navgation edit*/
 header
