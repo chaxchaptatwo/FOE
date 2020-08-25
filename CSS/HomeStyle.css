@@ -15,19 +15,19 @@ body
 .HomeLogo
 {
   margin: auto;
-  width: 45%;
+  width: 50vw;
   height: 65vh;
 }
 img#logo
 {
   padding-top: 10vh;
-  width: 42vw;
+  width: 46vw;
   height: 300px;
 }
 /*Navgation edit*/
 header
 {
-  margin-top: 50vh;
+  margin-top: 55vh;
 }
 li#Navi
 {
