@@ -2,12 +2,13 @@
 html
 {
   background-color: black;
+  background-image: url("../Images/Stars-min.gif");
   height: 100%;
 }
 body
 {
-  background-image: url("../Images/Stars-min.gif");
-  background-repeat: repeat;
+  /*-repeat: repeat;
+  background-size: 100% 100%;*/
   color: white;
   width: 100%;
   height: 100%;
@@ -16,18 +17,20 @@ body
 .HomeLogo
 {
   margin: auto;
-  width: 40%;
-  height: 100vh;
+  width: 45%;
+  height: 65vh;
 }
 img#logo
 {
-  width: 550px;
-  height: 400px;
+  width: 100%
+  height: 100%;
+  padding-top: 20vh;
+  padding-left: 12vw;
 }
 /*Navgation edit*/
 header
 {
-  margin-top: 60vh;
+  margin-top: 50vh;
 }
 li#Navi
 {
