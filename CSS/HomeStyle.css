@@ -6,19 +6,22 @@ html
 }
 body
 {
-  /*background-repeat: no-repeat;
-  background-size: 100% 100%;*/
+  background-image: url("../Images/Stars-min.gif");
+  background-repeat: repeat;
   color: white;
+  width: 100%;
+  height: 100%;
+  margin: auto;
 }
 .HomeLogo
 {
   margin: auto;
-  width: 45%;
+  width: 40%;
   height: 100vh;
 }
 img#logo
 {
-  width: 500px;
+  width: 550px;
   height: 400px;
 }
 /*Navgation edit*/
@@ -43,7 +46,7 @@ a#Navi
 ul.NaviList
 {
   display: inline-block;
-  background: rgba(1,11,19, 0.3);
+  background: rgba(1,11,19, 0.4);
   width: 97%;
   height: 90px;
   margin:auto;
