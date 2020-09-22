@@ -27,14 +27,16 @@ img#logo
 /*Navgation edit*/
 header
 {
-  margin-top: 55vh;
+  /*margin-top: 55vh;*/
 }
 li#Navi
 {
-    display: inline-block;
-    padding-top: 18px;
+    /*display: inline-block;*/
+    padding-top: 3vh;
+    padding-bottom: 3.5vh;
     margin: auto;
-    padding-left: 7.6vw;
+    text-align: center;
+    background: rgba(1,5,19, 0.8);
 }
 a#Navi
 {
@@ -46,13 +48,12 @@ a#Navi
 ul.NaviList
 {
   display: inline-block;
-  background: rgba(1,5,19, 0.8);
   width: 100vw;
   height: 90px;
   margin:auto;
   margin-left: -40px;
 }
-a#Navi:hover
+li#Navi:hover
 {
   background-color: Gray;
 }
@@ -68,4 +69,15 @@ header
   left: 0;
   position: fixed;
   width: 100vw;
+}
+/*MenuButton*/
+div.Menu
+{
+  padding-top: 10px;
+  margin: auto;
+}
+img#Menu
+{
+  width: 100px;
+  height: 100px;
 }
