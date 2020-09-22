@@ -33,8 +33,9 @@ li#Navi
 {
     /*display: inline-block;*/
     padding-top: 3vh;
-    padding-bottom: 3.5vh;
+    padding-bottom: 3.2vh;
     margin: auto;
+    margin-top: 0.5vh;
     text-align: center;
     background: rgba(1,5,19, 0.8);
 }
