@@ -1,17 +1,21 @@
 (function()
 {
   bool = true;
-  $("li#Navi").hide()
+  $("ul.NaviList").hide();
   $("img#Menu").click(function(error){
-    error.preventDefault()
+    error.preventDefault();
     if (bool === true)
     {
-      $("li#Navi").fadeIn(2000)
-      bool = false
+      $("ul.NaviList").fadeIn(2000);
+      bool = false;
     }
     else {
-      $("li#Navi").fadeOut(1000)
-      bool = true
+      $("ul.NaviList").fadeOut(400);
+      bool = true;
     }
-  })
+  });
+  $("img#logo").click(function(){
+      $("ul.NaviList").fadeIn(2000);
+      bool = false;
+  });
 }());
