@@ -48,6 +48,7 @@ a#Navi
 }
 ul.NaviList
 {
+  list-style-type: none;
   display: inline-block;
   width: 100vw;
   height: 90px;
