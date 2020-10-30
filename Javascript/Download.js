@@ -8,7 +8,7 @@
       	function()
       	{
         $("img.DownloadNow").hide();
-        $("img.DownloadNow").attr("src", "../Images/Download Here.png");
+        $("img.DownloadNow").attr("src", "../Images/Download here.png");
         $("img.DownloadNow").fadeIn(3000);
       	}, 5000);
   });
