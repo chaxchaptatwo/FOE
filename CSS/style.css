@@ -113,15 +113,13 @@ img.gif
 }
 img.DownloadHere
 {
-  width: 40%;
-  height: 40%;
-  padding-left: 29.5%;
+  width: 60%;
+  height: 60%;
 }
 img.DownloadNow
 {
-  width: 40%;
-  height: 40%;
-  padding-left: 29.5%;
+  width: 60%;
+  height: 60%;
 }
 img.SingleArt
 {
@@ -197,6 +195,7 @@ p.SingleName
 p.DownloadSingle
 {
   margin-top: 50px;
+  padding-left: 28.5%;
 }
 .Artist
 {
