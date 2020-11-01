@@ -1,6 +1,7 @@
 (function()
 {
   bool = true;
+  notclicked = true;
   $("ul.NaviList").hide();
   $("img#Menu").click(function(error){
     error.preventDefault();
@@ -22,7 +23,7 @@
   //Menu Notice
   setTimeout(function()
   {
-      $("img#Menu").fadeOut(500).fadeIn(500).fadeOut(500).fadeIn(500);
+      $("img#Menu").fadeOut(500).fadeIn(500);
   }, 2000);
   setTimeout(function()
   {
