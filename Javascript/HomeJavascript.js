@@ -22,7 +22,7 @@
   //Menu Notice
   setTimeout(function()
   {
-      $("img#Menu").fadeOut(500).fadeIn(500);
+      $("img#Menu").fadeOut(500).fadeIn(500).fadeOut(500).fadeIn(500);
   }, 2000);
   setTimeout(function()
   {
