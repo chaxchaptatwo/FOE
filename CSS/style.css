@@ -315,7 +315,7 @@ a.AlbumLinkImage
   margin: auto;
 }
 /* Next Previos buttons*/
-div.PrvNxtButtons
+p.PrvNxtButtons
 {
   width: 20vw;
   height: 100%;
