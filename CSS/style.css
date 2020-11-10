@@ -317,11 +317,13 @@ a.AlbumLinkImage
 /* Next Previos buttons*/
 p.PrvNxtButtons
 {
-  width: 20vw;
+  width: 80vw;
   height: 100%;
   margin: auto;
+  text-align: center;
 }
 a.previous {
+  margin-left: -20px;
   text-decoration: none;
   display: inline-block;
   padding: 8px 16px;
@@ -332,7 +334,6 @@ a.next {
   text-decoration: none;
   display: inline-block;
   padding: 8px 16px;
-  margin-left: 10px;
   background-color: #8B0000;
   color: white;
 }
