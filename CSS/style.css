@@ -127,6 +127,12 @@ img.SingleArt
   height: 40%;
   padding-left: 22%;
 }
+img.BckFrntCover
+{
+  width: 55%;
+  height: 40%;
+  padding-left: 22%;
+}
 /*footer changes*/
 footer
 {
@@ -189,6 +195,7 @@ a.socialmedia
 }
 p.SingleName
 {
+  padding-top: 50px;
   text-align: center;
   font-size: 2.8vw;
 }
@@ -241,7 +248,7 @@ ul#StreamPlatforms
 }
 a.AlbumLinkImage
 {
-  padding-left: 5%;
+  padding-left: 7vw;
 }
 .StreamPlatforms
 {
@@ -306,4 +313,26 @@ a.AlbumLinkImage
   width: 100%;
   height: 100%;
   margin: auto;
+}
+/* Next Previos buttons*/
+div.PrvNxtButtons
+{
+  width: 20vw;
+  height: 100%;
+  margin: auto;
+}
+a.previous {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #000000;
+  color: white;
+}
+a.next {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  margin-left: 10px;
+  background-color: #8B0000;
+  color: white;
 }
