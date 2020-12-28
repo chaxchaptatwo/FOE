@@ -12,12 +12,6 @@ body
   height: 100%;
   margin: auto;
 }
-.container
-{
-  background-image: url("../Images/space-min.gif");
-  background-size: auto;
-  background-repeat: repeat;
-}
 /*Navgation edit*/
 li#Navi
 {
