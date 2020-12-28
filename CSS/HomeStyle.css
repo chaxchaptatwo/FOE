@@ -1,7 +1,6 @@
 /*For all elements*/
 html
 {
-  background-image: linear-gradient(red, blue, black);
   height: 100%;
 }
 body
@@ -12,32 +11,20 @@ body
   height: 100%;
   margin: auto;
 }
-.HomeLogo
+.container
 {
-  margin: auto;
-  width: 50vw;
-  height: 50vh;
-  padding-top: 25vh;
-}
-img#logo
-{
-  width: 48vw;
-  height: 300px;
+  background-image: linear-gradient(red, blue, purple, black, purple, blue, red);
 }
 /*Navgation edit*/
-header
-{
-  /*margin-top: 55vh;*/
-}
 li#Navi
 {
-    /*display: inline-block;*/
-    padding-top: 4.8vh;
-    padding-bottom: 4.8vh;
+    padding-top: 3.3vh;
+    padding-bottom: 3.3vh;
     margin: auto;
     margin-top: 0.5vh;
     text-align: center;
-    background: rgba(1,5,19, 0.8);
+    /*background: rgba(1,5,19, 0.8);*/
+    background: rgba(0,0,0, 1);
 }
 a#Navi
 {
@@ -51,7 +38,6 @@ ul.NaviList
   list-style-type: none;
   display: inline-block;
   width: 100vw;
-  height: 90px;
   margin:auto;
   margin-left: -40px;
 }
@@ -75,11 +61,163 @@ header
 /*MenuButton*/
 div.Menu
 {
-  padding-top: 10px;
+  padding-top: 30px;
   margin: auto;
 }
 img#Menu
 {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
+}
+#NewMusicSoon
+{
+  text-align: center;
+  font-size: 4vw;
+  border-bottom: 2px solid white;
+  background-image: url("../Images/rain-min.gif");
+  background-size: auto;
+  background-repeat: repeat-x;
+  margin-top: 0px;
+  padding-top: 80px;
+}
+#ProjectName
+{
+  text-align: center;
+  font-size: 3vw;
+  width: 45%;
+  margin: auto;
+  border-bottom: 2px solid white;
+}
+img.BckFrntCover
+{
+  width: 55%;
+  height: 40%;
+  padding-left: 22%;
+}
+img.DownloadNow
+{
+  width: 60%;
+  height: 60%;
+}
+p.DownloadSingle
+{
+  margin-top: 50px;
+  padding-left: 28.5%;
+}
+#Stream
+{
+  text-align: center;
+  font-size: 2.8vw;
+  text-decoration: underline;
+}
+ul#StreamPlatforms
+{
+  display: inline-block;
+  text-decoration: none;
+}
+img.AlbumLinkImage
+{
+  height: 10%;
+  width: 10%;
+  margin-left: 7.4vw;
+}
+img.album
+{
+  width: 55%;
+  height: 40%;
+  padding-left: 22%;
+}
+.Sample
+{
+  width: 70%;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+/*Videos page edit*/
+#Videos
+{
+  text-align: center;
+  font-size: 3vw;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+}
+.VideoArtist
+{
+  text-align: center;
+  font-size: 35px;
+}
+.MusicVideo
+{
+  padding-left: 10.5%;
+}
+.ArtistVideoSection
+{
+  border-bottom: 2px solid white;
+  background-size: auto;
+  background-repeat: repeat;
+  margin-top: -3px;
+  padding-top: 15px;
+}
+iframe.MusicVideo
+{
+  padding-bottom: 100px;
+}
+/*footer changes*/
+footer
+{
+  background: rgba(0,0,0, 1);
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+a.socialmedia
+{
+  margin-left: 5.5%;
+}
+.gif
+{
+  margin-right: -4.5%;
+}
+img.socialmedia
+{
+  height: 5%;
+  width: 5%;
+  margin-left: 3.5vw;
+}
+img.gif
+{
+  height: 3%;
+  width: 3%;
+  margin-left: 1px;
+}
+span#Author
+{
+  font-size: 2vw;
+  padding-left: 10px;
+}
+/* Next Previos buttons*/
+p.PrvNxtButtons
+{
+  width: 80vw;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+}
+a.previous {
+  margin-left: -20px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #000000;
+  color: white;
+}
+a.next {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #8B0000;
+  color: white;
 }

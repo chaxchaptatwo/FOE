@@ -29,32 +29,36 @@
   <body>
     <div class="container">
       <script src="../Javascript/Javascript.js"></script>
-    <header>
-      <nav>
-          <ul class="NaviList">
-            <a href="Home"><img id="logo" src="../Images/logo.png" alt="The untold story album" /></a>
-            <li id="Navi"><a id="Navi" href="Home">Home</a></li>
-            <li id="Navi"><a id="Navi" href="Music">Music</a></li>
-            <li id="Navi"><a id="Navi" href="Videos">Videos</a></li>
-            <li id="Navi"><a id="Navi" class="active" href="Merch">Merch</a></li>
-            <li id="Navi"><a id="Navi" href="Tour">Tour</a></li>
-          </ul>
-      </nav>
-    </header>
+      <header>
+          <nav>
+            <ul class=HomeMenu>
+              <div class="Menu">
+                <a id="MenuButton" href=""><img id="Menu" src="../Images/Menu_Icon.png" alt="Menu Icon"></a>
+              </div>
+            </ul>
+              <ul class="NaviList">
+                <script src="../Javascript/HomeJavascript.js"></script>
+                <a id="Navi" href="Pages/Home"><li id="Navi">Home</li></a>
+                <a id="Navi" href="https://www.youtube.com/channel/UCOv9N1tgzglPQbXNJfBe8sQ/playlists" target="_blank"><li id="Navi">Videos</li></a>
+                <a id="Navi" href="Pages/Merch"><li id="Navi">Merch</li></a>
+                <a id="Navi" href="Pages/Tour"><li id="Navi">Tour</li></a>
+              </ul>
+          </nav>
+      </header>
     <section>
       <div class="MerchSection">
         <img class="ComingSoon" src="../Images/ComingSoon.png" alt="Merch coming soon...">
       </div>
     </section>
     <footer>
-      <p id="copyright">&copy <span id="date"></span> F.O.E. Music Group. & Breatheslow<img class="gif" src="../Images/source.gif" />
+      <div><span id="Author">&copy <span id="date"></span> F.O.E. Music Group. & Breatheslow</span><img class="gif" src="../Images/source.gif" />
           <a class="socialmedia" target="_blank"  href="https://www.facebook.com/FoE-Boyzz-102206834752223/"><img class="socialmedia" src="../Images/facebook.png" alt="facebook"></a>
           <a class="socialmedia" target="_blank"  href="https://twitter.com/FoE_MusicGroup"><img class="socialmedia" src="../Images/twitter.png" alt="twitter"></a>
           <a class="socialmedia" target="_blank"  href="https://www.instagram.com/f.o.e_music_group/"><img class="socialmedia" src="../Images/instagram.png" alt="instagram"></a>
           <a class="socialmedia" target="_blank"  href="mailto:foemusicgroupmanagement@gmail.com"><img class="socialmedia" src="../Images/email.png" alt="email"></a>
-      </p>
-      <script src="../Javascript/Date.js"></script>
+      </div>
     </footer>
+    <script src="../Javascript/Date.js"></script>
   </div>
   </body>
 </html>

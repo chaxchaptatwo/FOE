@@ -1,11 +1,11 @@
 (function()
 {
   //Download ThankYou
-  download = "../Images/Download here.png";
-  thankYou = "../Images/ThankYou.png";
+  download = "Images/Download here.png";
+  thankYou = "Images/ThankYou.png";
   //Family Business EP
-  fCover = "../Images/FB/Front Cover.jpg";
-  bCover = "../Images/FB/Back Cover.jpg";
+  fCover = "Images/FB/Front Cover.jpg";
+  bCover = "Images/FB/Back Cover.jpg";
 
   $("a#DownloadNow").click(function(){
       $("img.DownloadNow").hide();
