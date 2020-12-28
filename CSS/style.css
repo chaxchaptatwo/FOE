@@ -128,14 +128,15 @@ ul#followLinks
 }
 img.ComingSoon
 {
+  margin-top: 25vh;
   width: 100%;
 	height: 100%;
 }
 img.Quarantine
 {
+  margin-top: 25vh;
   width: 100%;
-  height: 100%;
-  margin: auto;
+  height: 50%;
   vertical-align: middle;
 }
 /*footer changes*/
