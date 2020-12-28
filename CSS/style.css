@@ -3,6 +3,9 @@ html
 {
   background-color: black;
   height: 100%;
+  background-image: url("../Images/space-min.gif");
+  background-size: auto;
+  background-repeat: repeat;
 }
 body
 {
