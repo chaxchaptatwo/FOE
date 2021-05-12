@@ -99,6 +99,16 @@ img.DownloadNow
   width: 60%;
   height: 60%;
 }
+img.DownloadNow2
+{
+  width: 60%;
+  height: 60%;
+}
+img.DownloadNow3
+{
+  width: 60%;
+  height: 60%;
+}
 p.DownloadSingle
 {
   margin-top: 50px;
@@ -206,6 +216,7 @@ p.PrvNxtButtons
   margin: auto;
   text-align: center;
 }
+      /*FamilyBusiess*/
 a.previous {
   margin-left: -20px;
   text-decoration: none;
@@ -215,6 +226,22 @@ a.previous {
   color: white;
 }
 a.next {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #8B0000;
+  color: white;
+}
+      /*BloodIsThicker*/
+a.previous2 {
+  margin-left: -20px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #000000;
+  color: white;
+}
+a.next2 {
   text-decoration: none;
   display: inline-block;
   padding: 8px 16px;
