@@ -67,18 +67,18 @@
   });
   $("a.previous2").click(function(error){
       error.preventDefault();
-      $("img.BckFrntCover").hide();
-      $("img.BckFrntCover").attr("src", fCover2);
-      $("img.BckFrntCover").fadeIn(1000);
-      $("a.previous").css({"background-color": "#000000"});
-      $("a.next").css({"background-color": "#8B0000"});
+      $("img.BckFrntCover2").hide();
+      $("img.BckFrntCover2").attr("src", fCover2);
+      $("img.BckFrntCover2").fadeIn(1000);
+      $("a.previous2").css({"background-color": "#000000"});
+      $("a.next2").css({"background-color": "#8B0000"});
   });
   $("a.next2").click(function(error){
       error.preventDefault();
-      $("img.BckFrntCover").hide();
-      $("img.BckFrntCover").attr("src", bCover2);
-      $("img.BckFrntCover").fadeIn(1000);
-      $("a.previous").css({"background-color": "#8B0000"});
-      $("a.next").css({"background-color": "#000000"});
+      $("img.BckFrntCover2").hide();
+      $("img.BckFrntCover2").attr("src", bCover2);
+      $("img.BckFrntCover2").fadeIn(1000);
+      $("a.previous2").css({"background-color": "#8B0000"});
+      $("a.next2").css({"background-color": "#000000"});
   });
 }());
